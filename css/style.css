@@ -1,0 +1,649 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 62.5%;
+}
+
+
+
+.container .content {
+    width: 86%!important;
+    max-width: 1440px;
+    margin-inline: auto;
+
+}
+
+@media screen and (max-width: 406px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+header {
+    position: relative;
+}
+
+
+
+
+header .joey-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 635px) {
+    header .joey-menu {
+        display: block;
+        position: relative;
+    }
+}
+
+
+
+header .joey-menu .logo p {
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 453px) {
+    header .joey-menu .logo p {
+        font-size: 3rem;
+    }
+}
+
+header .joey-menu nav ul {
+    display: flex;
+    width: fit-content;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 20em;
+    background-color: #000;
+
+}
+
+header .joey-menu nav .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 6;
+    margin-top: 10px;
+}
+
+header .joey-menu nav .hamburger i {
+    background: #000;
+    color: #fff;
+    padding: 13px 15px;
+    border-radius: 50%;
+    display: none;
+}
+
+header .joey-menu nav .hamburger i:last-child {
+    background-color: transparent;
+}
+
+
+
+header .joey-menu nav ul li {
+    list-style: none;
+    margin-right: 2em;
+}
+
+header .joey-menu nav ul li:last-child {
+    margin-right: 0;
+}
+
+header .joey-menu nav ul li a {
+    padding: 10px;
+    color: #c4c4c4;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+header .joey-menu nav ul li a:hover {
+    color: #fff;
+}
+
+
+header .joey-menu nav ul li a span {
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    font-size: 0.6em;
+    color: #000;
+    padding: 2px 4px;
+    margin-right: 5px
+}
+
+
+header .joey-menu nav ul li a:hover span {
+    background-color: #ebebeb;
+}
+
+header .joey-menu nav ul li a.active {
+    background-color: #fff;
+    border-radius: 30px;
+    color: #000;
+}
+
+@media screen and (max-width: 635px) {
+    header .joey-menu nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        border-radius: 0;
+        padding: 30px 10px;
+        position: absolute;
+        top: 0;
+        right: -1px;
+        margin-top: 10px;
+        z-index: 5;
+        display: none;
+    }
+
+    header .joey-menu nav ul.active {
+        display: flex;
+    }
+
+    header .joey-menu nav ul li {
+        margin: 0;
+    }
+
+    header .joey-menu nav .hamburger i.active {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 453px) {
+    header .joey-menu nav .hamburger {
+        margin-top: 10px;
+    }
+
+    header .joey-menu nav ul {
+        margin-top: 10px;
+    }
+}
+
+header .websites-branding-lets-talk-hello .websites-branding {
+    width: fit-content;
+}
+
+header .websites-branding-lets-talk-hello .websites-branding h1 {
+    width: fit-content;
+    font-size: 19rem;
+    margin: 0;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1313px) {
+    header .websites-branding-lets-talk-hello .websites-branding h1 {
+        font-size: 16rem;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    header .websites-branding-lets-talk-hello .websites-branding h1 {
+        font-size: 13rem;
+    }
+}
+
+@media screen and (max-width: 956px) {
+    header .websites-branding-lets-talk-hello .websites-branding h1 {
+        font-size: 11rem;
+    }
+}
+
+@media screen and (max-width: 847px) {
+    header .websites-branding-lets-talk-hello .websites-branding h1 {
+        font-size: 8rem;
+    }
+}
+
+
+
+@media screen and (max-width: 697px) {
+    header .websites-branding-lets-talk-hello .websites-branding h1 {
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    header .websites-branding-lets-talk-hello .websites-branding h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    header .websites-branding-lets-talk-hello .websites-branding {
+        margin: 0 auto;
+    }
+
+}
+
+
+header .websites-branding-lets-talk-hello .lets-talk-hello {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+@media screen and (max-width: 540px) {
+    header .websites-branding-lets-talk-hello .lets-talk-hello {
+        margin-top: 81px;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    header .websites-branding-lets-talk-hello .lets-talk-hello {
+        margin-top: 113px;
+    }
+}
+
+header .websites-branding-lets-talk-hello .lets-talk-hello p {
+    font-size: 2rem;
+}
+
+
+
+header .websites-branding-lets-talk-hello .lets-talk-hello .lets-talk p:first-child {
+    font-weight: bold;
+}
+
+header .websites-branding-lets-talk-hello .lets-talk-hello .hello {
+    width: 513px;
+}
+
+@media screen and (max-width: 768px) {
+    header .websites-branding-lets-talk-hello .lets-talk-hello p {
+        font-size: 1.3rem;
+    }
+
+    header .websites-branding-lets-talk-hello .lets-talk-hello .hello {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    header .websites-branding-lets-talk-hello .lets-talk-hello .hello {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    header .websites-branding-lets-talk-hello .lets-talk-hello .hello {
+        width: 200px;
+    }
+}
+
+header .scroll-down {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 26rem;
+    right: 0;
+}
+
+header .scroll-down a {
+    background: #f5f5f5;
+    padding: 21px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 33px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+header .scroll-down a i {
+    margin-left: 7px;
+    animation: bounce-out 2s ease infinite;
+}
+
+@keyframes bounce-out {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(.85);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1313px) {
+    header .scroll-down {
+        bottom: 24rem;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    header .scroll-down {
+        bottom: 22rem;
+    }
+}
+
+@media screen and (max-width: 956px) {
+    header .scroll-down {
+        bottom: 20rem;
+    }
+}
+
+@media screen and (max-width: 847px) {
+    header .scroll-down {
+        bottom: 13rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 847px) {
+    header .scroll-down {
+        top: 38rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    header .scroll-down {
+        font-size: 1.3rem;
+        top: 26rem;
+    }
+}
+
+main .projects .title h2 {
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+main .projects .description {
+    width: 392px;
+}
+
+@media screen and (max-width: 392px) {
+    main .projects .description {
+        width: auto;
+    }
+}
+
+main .projects .description p {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+main .projects .card {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 48% 48%;
+}
+
+@media screen and (max-width: 375px) {
+    main .projects .card {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+main .projects .card .item .description {
+    margin-top: 2rem;
+    width: auto;
+}
+
+main .projects .card .item img {
+    max-width: 100%;
+}
+
+main .projects .card .item .description p:first-child {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    main .projects .title h2 {
+        font-size: 4rem;
+    }
+
+    main .projects .description p {
+        font-size: 1.3rem;
+    }
+}
+
+.expertise .title h2 {
+    font-size: 6rem;
+}
+
+.expertise .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 14%;
+    grid-row-gap: 7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .expertise .card {
+        grid-template-columns: 1fr;
+        grid-row-gap: 2rem;
+    }
+}
+
+
+.expertise .card .item .title h3 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.expertise .card .item .description p {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .expertise .title h2 {
+        font-size: 4rem;
+    }
+
+    .expertise .card .item .title h3 {
+        font-size: 2rem;
+    }
+
+    .expertise .card .item .description p {
+        font-size: 1.3rem;
+    }
+}
+
+
+.visual-design-for-digital {
+    width: 100%;
+}
+
+.visual-design-for-digital .title {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100vw;
+    border: solid 1px;
+    left: -8.1%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.visual-design-for-digital .title p {
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    margin: 2rem 0;
+    transform: translate(100%);
+    animation: move 30s linear infinite
+        /* infinite make reapeat the animation indefinitely */
+    ;
+}
+
+/* Create the animation */
+@keyframes move {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.testimonials {
+    margin-top: 22rem;
+}
+
+.testimonials .title h2 {
+    font-size: 6rem;
+}
+
+@media screen and (max-width:597px) {
+    .testimonials .title h2 {
+        font-size: 4rem;
+    }
+}
+
+.testimonials .content {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-column-gap: 7%;
+    margin: 0;
+}
+
+@media screen and (max-width:597px) {
+    .testimonials .content {
+        grid-template-columns: 1fr;
+    }
+}
+
+.testimonials .content .left p {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:1145px) {
+    .testimonials .content .left p {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .testimonials .content .left p {
+        font-size: 2rem;
+    }
+}
+
+
+
+.testimonials .content .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+@media screen and (max-width:597px) {
+    .testimonials .content .right {
+        margin-top: 2rem;
+    }
+}
+
+.testimonials .content .right p {
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+@media screen and (max-width:768px) {
+    .testimonials .content .right p {
+        font-size: 1.3rem;
+    }
+}
+
+
+.testimonials .content .right p:first-child {
+    font-weight: 600;
+}
+
+.testimonials .content .right p:last-child {
+    margin-bottom: 0;
+}
+
+footer .lets-talk .wrapper {
+    text-align: center;
+}
+
+footer .lets-talk .wrapper h2 {
+    font-size: 14rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width:768px) {
+    footer .lets-talk .wrapper h2 {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width:521px) {
+    footer .lets-talk .wrapper h2 {
+        font-size: 6rem;
+    }
+}
+
+
+footer .lets-talk .wrapper button {
+    background: #000;
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem 4rem;
+    border-radius: 20rem;
+    border: none;
+
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding-top: 12rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (max-width:486px) {
+    footer .social-media {
+        flex-direction: column;
+    }
+}
+
+
+footer .social-media .right ul {
+    display: flex;
+    column-gap: 5rem;
+}
+
+@media screen and (max-width:486px) {
+    footer .social-media .right ul {
+        padding: 0;
+    }
+}
+
+footer .social-media .right ul li {
+    list-style: none;
+}
+
+footer .social-media .right ul li a {
+    color: #000;
+    text-decoration: none;
+}
